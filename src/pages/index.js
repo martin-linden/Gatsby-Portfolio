@@ -1,21 +1,44 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+/* import Image from '../components/image.js'; */
+import '../sass/main.scss';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import BackgroundImage from 'gatsby-background-image';
+import { graphql } from 'gatsby';
+import transitionSVG from '../images/transition.svg';
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+const IndexPage = (props) => (
+	<div>
+		<BackgroundImage
+			className="masthead"
+			fluid={props.data.indexImage.childImageSharp.fluid}
+			fadeIn
+		>
+			<Layout>
+				<SEO title="Home" />
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+				<div className="black-overlay">
+					<div className="content-box">
+						<h1>This is where my h1 tag goes</h1>
+						<h2>This is my sub head</h2>
+					</div>
+				</div>
+			</Layout>
+		</BackgroundImage>
+		<img id="transition" src={transitionSVG} />
+	</div>
+);
 
-export default IndexPage
+export default IndexPage;
+
+export const pageQuery = graphql`
+	query {
+		indexImage: file(relativePath: { eq: "landscape.png" }) {
+			childImageSharp {
+				fluid(maxWidth: 1800) {
+					...GatsbyImageSharpFluid
+				}
+			}
+		}
+	}
+`;
