@@ -1,22 +1,15 @@
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
 import '../sass/main.scss';
+import Logo from '../images/logo.svg';
 
-const Header = ({ siteTitle }) => (
-	<React.Fragment>
+const Header = () => (
+	<div className="header">
+		<img id="logo" src={Logo} />
 		<Link id="links" to="/contact/">
 			About / Contact
 		</Link>
-	</React.Fragment>
+	</div>
 );
-
-Header.propTypes = {
-	siteTitle: PropTypes.string
-};
-
-Header.defaultProps = {
-	siteTitle: ``
-};
 
 export default Header;
