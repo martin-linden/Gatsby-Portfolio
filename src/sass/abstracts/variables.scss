@@ -1,7 +1,32 @@
-//Color variables
+////Color variables////
+
+//Primary - colors
 $color-primary: purple;
-$links-primary: #fff;
 $primary-white: #fff;
 
-//Text variables
+//Link - colors
+$links-primary: #fff;
+$links-secondary: black;
+
+//////////////////////////////////////
+
+////Font size variables////
+
+//Landing - Font size
 $Header-size: 400%;
+
+//Projects Page - Font size
+$project-header: 200%;
+$project-text-size: 100%;
+
+//////////////////////////////////////
+
+////text width variables////
+
+//Projects Page - text width
+$project-text-width: 400px;
+
+//////////////////////////////////////
+
+////Image variables////
+$logo-size: 80px;
