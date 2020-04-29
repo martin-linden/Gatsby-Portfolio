@@ -1,6 +1,7 @@
 import React from 'react';
 import '../sass/main.scss';
-import BrandWineEstates from '../components/brandWineEstates.js';
+import BrandWineEstates from '../components/projectComponents/brandWineEstates';
+import BirdsEyeView from '../components/projectComponents/birdsEyeView';
 
 const ProjectPage = () => (
 	<div>
@@ -9,6 +10,7 @@ const ProjectPage = () => (
 			<hr className="line" />
 		</div>
 		<BrandWineEstates />
+		<BirdsEyeView />
 	</div>
 );
 

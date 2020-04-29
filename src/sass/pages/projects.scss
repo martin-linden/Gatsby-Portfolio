@@ -1,9 +1,39 @@
+.project-wrapper {
+	@include project-flexbox(row);
+}
+
+.project-wrapper-reverse {
+	display: flex;
+	@include project-flexbox(row-reverse);
+}
+
 .project-header-wrapper {
 	margin-bottom: 150px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.project-header {
+	font-size: $project-header;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.project-content-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	text-align: left;
+}
+
+.project-image-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
 }
 
 .line {
