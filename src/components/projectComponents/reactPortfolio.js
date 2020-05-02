@@ -1,17 +1,17 @@
 import React from 'react';
 import '../../sass/main.scss';
 import { Link } from 'gatsby';
-import Bird from '../../images/bird.svg';
+import ReactLogo from '../../images/react-logo.svg';
 
-const BrandWineEstates = () => (
-	<div className="project-wrapper-reverse">
+const ReactPortfolio = () => (
+	<div className="project-wrapper">
 		<div className="project-content-wrapper">
 			<div className="page-content">
-				<h1 className="project-header">Birds Eye View</h1>
+				<h1 className="project-header">React Portfolio</h1>
 				<p className="project-text">
-					Birds Eye View or BEV, is a school project hfuh
-					fdsfdsfs fdsfdsfs fdsfsdfs fgsfs fgsf dg dfgdfsg
-					fdgdfsg gsfdgfds ggfsdgd
+					This was my first React project klvfvjdh gfjhsgjf fhhgu
+					fhhfugosr hfjhadf fhdiah hfhdafi nlfjdls jlfjsdal
+					jkfjsdal jifjislda jifjdsi jifjsiae
 				</p>
 				<div className="link-container">
 					{/* <Link className="link2" to="/Read more/">
@@ -27,9 +27,9 @@ const BrandWineEstates = () => (
 			</div>
 		</div>
 		<div className="project-image-wrapper">
-			<img className="project-image" src={Bird} />
+			<img className="project-image" src={ReactLogo} />
 		</div>
 	</div>
 );
 
-export default BrandWineEstates;
+export default ReactPortfolio;

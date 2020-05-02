@@ -1,17 +1,18 @@
 import React from 'react';
 import '../../sass/main.scss';
 import { Link } from 'gatsby';
-import Bird from '../../images/bird.svg';
+import NoteBook from '../../images/note-book.svg';
 
-const BrandWineEstates = () => (
+const Quire = () => (
 	<div className="project-wrapper-reverse">
 		<div className="project-content-wrapper">
 			<div className="page-content">
-				<h1 className="project-header">Birds Eye View</h1>
+				<h1 className="project-header">Quire - Notebook</h1>
 				<p className="project-text">
-					Birds Eye View or BEV, is a school project hfuh
-					fdsfdsfs fdsfdsfs fdsfsdfs fgsfs fgsf dg dfgdfsg
-					fdgdfsg gsfdgfds ggfsdgd
+					Quire is a jcidsjjf fjdsijfiosd fjdsifjids
+					fgjdsjgifpdsj kfjdsjipf jfidsjifj jfipdsjifj jfkjdskjfk
+					klfndsklj klnvdsfklnfl klfgnskljdi fjdisjf fjdisojfiosj
+					ijfidsj ijfidsojio
 				</p>
 				<div className="link-container">
 					{/* <Link className="link2" to="/Read more/">
@@ -27,9 +28,9 @@ const BrandWineEstates = () => (
 			</div>
 		</div>
 		<div className="project-image-wrapper">
-			<img className="project-image" src={Bird} />
+			<img className="project-image" src={NoteBook} />
 		</div>
 	</div>
 );
 
-export default BrandWineEstates;
+export default Quire;
