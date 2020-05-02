@@ -7,6 +7,7 @@ import BackgroundImage from 'gatsby-background-image';
 import { graphql } from 'gatsby';
 import transitionSVG from '../images/transition.svg';
 import ProjectPage from '../pages/projects';
+import Footer from '../components/footer';
 
 const IndexPage = (props) => (
 	<div>
@@ -26,6 +27,7 @@ const IndexPage = (props) => (
 			</div>
 		</BackgroundImage>
 		<ProjectPage />
+		<Footer />
 	</div>
 );
 
