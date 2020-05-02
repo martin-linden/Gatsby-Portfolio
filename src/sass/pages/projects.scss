@@ -1,14 +1,19 @@
+.project-border {
+	padding: 30px;
+}
+
 .project-wrapper {
 	@include project-flexbox(row);
+	flex-wrap: wrap-reverse;
 }
 
 .project-wrapper-reverse {
-	display: flex;
 	@include project-flexbox(row-reverse);
+	flex-wrap: wrap-reverse;
 }
 
 .project-header-wrapper {
-	margin-bottom: 150px;
+	margin-bottom: 10%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -17,23 +22,32 @@
 
 .project-header {
 	font-size: $project-header;
-	margin-bottom: 10px;
+	/* margin-bottom: 10px; */
 	text-align: left;
+	color: $project-header-primary;
 }
 
 .project-content-wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 50%;
 	text-align: left;
+	flex-basis: 50%;
+	flex-grow: 1;
+
+	/* max-width: 400px; */
+}
+
+.page-content {
+	max-width: 400px;
 }
 
 .project-image-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 50%;
+	flex-basis: 50%;
+	min-width: 300px;
 }
 
 .line {
@@ -42,4 +56,26 @@
 	color: black;
 	background-color: black;
 	border: none;
+}
+
+.project-image {
+	width: 70px;
+	margin: 0;
+}
+.project-image-2 {
+	width: 95px;
+	margin: 0;
+}
+
+//Media querys
+
+@media only screen and (max-width: 659px) {
+	.project-image {
+		width: 40px;
+		margin-bottom: 10%;
+	}
+	.project-image-2 {
+		width: 65px;
+		margin-bottom: 10%;
+	}
 }

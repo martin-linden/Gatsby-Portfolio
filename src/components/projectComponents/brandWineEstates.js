@@ -6,7 +6,7 @@ import Wine from '../../images/Wine.svg';
 const BrandWineEstates = () => (
 	<div className="project-wrapper">
 		<div className="project-content-wrapper">
-			<div>
+			<div className="page-content">
 				<h1 className="project-header">Brand Wine Estates</h1>
 				<p className="project-text">
 					Brand Wine Estates work with producers from the classic
