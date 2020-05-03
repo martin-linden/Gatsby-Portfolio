@@ -1,3 +1,11 @@
 @import "abstracts/variables";
+@import "abstracts/mixins";
 @import "base/links";
-@import "pages/index.scss";
+@import "base/text";
+@import "base/images";
+@import "base/buttons";
+@import "pages/index";
+@import "pages/projects";
+@import "layout/grids";
+@import "layout/flexbox";
+@import "components/footer.scss";

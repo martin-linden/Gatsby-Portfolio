@@ -6,9 +6,15 @@ import Logo from '../images/logo.svg';
 const Header = () => (
 	<div className="header">
 		<img id="logo" src={Logo} />
-		<Link id="links" to="/contact/">
-			About / Contact
-		</Link>
+		<div id="link-wrapper">
+			<Link className="link" to="/contact/">
+				About me
+			</Link>
+
+			<Link className="link" to="/contact/">
+				Contact
+			</Link>
+		</div>
 	</div>
 );
 

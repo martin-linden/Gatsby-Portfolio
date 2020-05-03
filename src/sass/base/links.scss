@@ -1,6 +1,15 @@
 @import "abstracts/variables";
 
-#links {
-  text-decoration: none;
-  color: $links-primary;
+/* #link-wrapper {
+} */
+
+.link {
+	margin-right: 15px;
+	text-decoration: none;
+	color: $links-primary;
+}
+
+.link2 {
+	margin-right: 15px;
+	color: $links-secondary;
 }

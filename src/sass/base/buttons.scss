@@ -1,0 +1,14 @@
+/* arrow common style */
+.arrow {
+	width: 15px;
+	height: 15px;
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+.arrow-bottom {
+	/* transform: rotate(135deg); */
+	align-self: flex-end;
+	justify-self: center;
+	position: absolute;
+}
