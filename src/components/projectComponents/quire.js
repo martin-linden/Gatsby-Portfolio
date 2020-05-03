@@ -9,17 +9,16 @@ const Quire = () => (
 			<div className="page-content">
 				<h1 className="project-header">Quire - Notebook</h1>
 				<p className="project-text">
-					Quire is a jcidsjjf fjdsijfiosd fjdsifjids
-					fgjdsjgifpdsj kfjdsjipf jfidsjifj jfipdsjifj jfkjdskjfk
-					klfndsklj klnvdsfklnfl klfgnskljdi fjdisjf fjdisojfiosj
-					ijfidsj ijfidsojio
+					Quire is a professional notebook in the browser. Take
+					notes, add images, favourite your pages and easily save
+					it to a pdf.
 				</p>
 				<div className="link-container">
 					{/* <Link className="link2" to="/Read more/">
 					About me
 				</Link> */}
 					<a
-						href="../https://github.com/martin-linden"
+						href="https://github.com/amol0900/fe19tp1_-team-ink-"
 						className="link2"
 					>
 						Github

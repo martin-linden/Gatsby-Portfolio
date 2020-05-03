@@ -21,7 +21,7 @@ const BrandWineEstates = () => (
 					About me
 				</Link> */}
 					<a
-						href="../https://github.com/martin-linden"
+						href="https://github.com/martin-linden/Brand-Wine-Estates"
 						className="link2"
 					>
 						Github

@@ -9,16 +9,16 @@ const ReactPortfolio = () => (
 			<div className="page-content">
 				<h1 className="project-header">React Portfolio</h1>
 				<p className="project-text">
-					This was my first React project klvfvjdh gfjhsgjf fhhgu
-					fhhfugosr hfjhadf fhdiah hfhdafi nlfjdls jlfjsdal
-					jkfjsdal jifjislda jifjdsi jifjsiae
+					This is my first React project, built using React
+					Router DOM, Styled Components and a layout made
+					entirely out of CSS Grids.
 				</p>
 				<div className="link-container">
 					{/* <Link className="link2" to="/Read more/">
 					About me
 				</Link> */}
 					<a
-						href="../https://github.com/martin-linden"
+						href="https://github.com/martin-linden/React-Portfolio"
 						className="link2"
 					>
 						Github
