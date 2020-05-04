@@ -5,14 +5,12 @@ import Logo from '../images/logo.svg';
 
 const Header = () => (
 	<div className="header">
-		<img id="logo" src={Logo} />
+		<Link to="/">
+			<img id="logo" src={Logo} />
+		</Link>
 		<div id="link-wrapper">
 			<Link className="link" to="/contact/">
-				About me
-			</Link>
-
-			<Link className="link" to="/contact/">
-				Contact
+				About me / Contact
 			</Link>
 		</div>
 	</div>
