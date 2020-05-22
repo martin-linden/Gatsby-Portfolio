@@ -8,6 +8,7 @@ import { Link } from 'gatsby';
 const ContactPage = () => (
 	<React.Fragment>
 		<Background />
+
 		<div className="project-border">
 			<div className="project-header-wrapper">
 				<h1 className="page-header">Contact</h1>
