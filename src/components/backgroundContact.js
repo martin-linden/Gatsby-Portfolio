@@ -29,6 +29,7 @@ const BackgroundSection = () => (
 					<div className="background-container">
 						<div className="color-overlay">
 							<Header />
+
 							<div className="contact-content">
 								<h1>About me</h1>
 								<p>

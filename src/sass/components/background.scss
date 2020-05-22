@@ -22,6 +22,24 @@
 	color: white;
 }
 
+.navigate {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family: 'PT Serif', serif;
+	font-weight: 400;
+}
+
+.arrow {
+	border: solid white;
+	border-width: 0 1px 1px 0;
+	display: inline-block;
+	padding: 3px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
 .color-overlay {
 	/* 	background-image: linear-gradient(#b09ccb, #000);
 	opacity: 50%;
@@ -34,9 +52,9 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: start;
 	height: 90vh;
-	margin-left: 55%;
+	margin-left: 20%;
 }
 
 .background-container .content h3 {
@@ -47,7 +65,6 @@
 }
 
 .background-container .contact-content h1 {
-	font-size: 400%;
 	color: white;
 }
 

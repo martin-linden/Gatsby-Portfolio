@@ -33,6 +33,10 @@ const BackgroundSection = () => (
 							<h3>I'm Martin Lindén</h3>
 							<h3>Front-end developer</h3>
 						</div>
+						<div className="navigate">
+							<a href="#projects">View Projects</a>
+							<i className="arrow" />
+						</div>
 					</div>
 				</BackgroundImage>
 			);
