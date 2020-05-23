@@ -8,6 +8,7 @@ const ContactForm = () => (
 				className="form"
 				name="contact"
 				method="post"
+				action="#"
 				data-netlify="true"
 			>
 				<label>
