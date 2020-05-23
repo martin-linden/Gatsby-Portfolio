@@ -7,7 +7,7 @@ import Quire from '../components/projectComponents/quire';
 
 const ProjectPage = () => (
 	<div className="project-border">
-		<div className="project-header-wrapper">
+		<div className="project-header-wrapper" id="projects">
 			<h1 className="page-header">Projects</h1>
 			<hr className="line" />
 		</div>

@@ -65,3 +65,25 @@ textarea:focus {
 	border: 1px solid #b09ccb;
 	box-shadow: 0 0 5px #b09ccb;
 }
+
+.project-header-wrapper p {
+	text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+	.form-input {
+		width: 280px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.form-input {
+		width: 280px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.form textarea {
+		width: 280px;
+	}
+}

@@ -3,7 +3,7 @@ import '../sass/main.scss';
 
 const Footer = () => (
 	<div className="footer">
-		<p>Built with Gatsby by Martin Lindén - 2020</p>
+		<p>Built and designed by Martin Lindén - 2020</p>
 	</div>
 );
 

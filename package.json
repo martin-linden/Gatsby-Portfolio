@@ -8,6 +8,7 @@
     "gatsby": "^2.20.12",
     "gatsby-background-image": "^1.1.1",
     "gatsby-image": "^2.3.1",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-offline": "^3.1.2",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
@@ -22,7 +23,7 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "prettier": "^1.19.1",
     "sass": "^1.26.3",
     "sass-loader": "^8.0.2",
