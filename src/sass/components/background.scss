@@ -57,6 +57,9 @@
 	padding-right: 30px;
 }
 
+.background-container h1 {
+}
+
 .contact-content {
 	display: flex;
 	flex-direction: column;
@@ -87,4 +90,8 @@
 	.background-container .container {
 		margin-left: 0;
 	}
+}
+
+#Welcome {
+	height: 30%;
 }
