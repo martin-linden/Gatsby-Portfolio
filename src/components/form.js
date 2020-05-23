@@ -4,7 +4,12 @@ import '../sass/main.scss';
 const ContactForm = () => (
 	<div className="form-container">
 		<div className="test">
-			<form className="form" method="post" action="#">
+			<form
+				className="form"
+				name="contact"
+				method="post"
+				data-netlify="true"
+			>
 				<label>
 					Full Name
 					<input
