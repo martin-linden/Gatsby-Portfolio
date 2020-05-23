@@ -48,13 +48,22 @@
 	align-items: center; */
 }
 
-.background-container .contact-content {
+.background-container .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 20%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.contact-content {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: start;
+	justify-content: center;
 	height: 90vh;
-	margin-left: 20%;
+	/* margin-left: 20%; */
 }
 
 .background-container .content h3 {
@@ -72,4 +81,10 @@
 	font-size: 100%;
 	color: white;
 	max-width: 350px;
+}
+
+@media only screen and (max-width: 400px) {
+	.background-container .container {
+		margin-left: 0;
+	}
 }
