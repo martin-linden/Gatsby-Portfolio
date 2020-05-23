@@ -11,6 +11,7 @@ const ContactForm = () => (
 				action="#"
 				data-netlify="true"
 			>
+				<input type="hidden" name="form-name" value="contact" />
 				<label>
 					Full Name
 					<input
