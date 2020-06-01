@@ -1,28 +1,23 @@
 .background-container {
-	max-width: 100vw;
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.background-container .content {
+.content-container {
+	height: 80vh;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 80vh;
 }
 
-.background-container .content h1 {
-	font-family: 'PT Serif', serif;
-	font-weight: 400;
-	/* font-style: italic; */
-	font-size: 400%;
-	color: white;
+.background-container .content {
+	max-width: 600px;
 }
 
 .navigate {
+	height: 10vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -40,13 +35,6 @@
 	transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
 }
-.color-overlay {
-	/* 	background-image: linear-gradient(#b09ccb, #000);
-	opacity: 50%;
-	height: 100%;
-	width: 100%;
-	align-items: center; */
-}
 
 .background-container .container {
 	display: flex;
@@ -55,9 +43,6 @@
 	margin-left: 20%;
 	padding-left: 30px;
 	padding-right: 30px;
-}
-
-.background-container h1 {
 }
 
 .contact-content {
@@ -93,5 +78,11 @@
 }
 
 #Welcome {
-	height: 30%;
+	padding-left: 20%;
+	padding-right: 20%;
 }
+
+/* #lottie-img {
+	max-width: 200px;
+}
+ */
