@@ -29,6 +29,7 @@ const BackgroundSection = () => (
 				>
 					<div className="background-container">
 						<Header />
+
 						<div className="content">
 							<img id="Welcome" src={Welcome} />
 
