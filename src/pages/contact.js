@@ -3,7 +3,7 @@ import Background from '../components/backgroundContact';
 import Footer from '../components/footer';
 import ContactForm from '../components/form';
 import '../sass/main.scss';
-import { Link } from 'gatsby';
+import PaperPlane from '../components/PaperPlane';
 
 const ContactPage = () => (
 	<React.Fragment>
@@ -14,6 +14,10 @@ const ContactPage = () => (
 				<h1 className="page-header">Contact</h1>
 
 				<hr className="line" />
+				<div id="paper-plane">
+					<PaperPlane />
+				</div>
+
 				<div>
 					<a
 						href="https://github.com/martin-linden"

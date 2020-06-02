@@ -2,7 +2,8 @@ import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
 import BackgroundImage from 'gatsby-background-image';
 import Header from '../components/header';
-import Welcome from '../images/Welcome.svg';
+import Welcome from '../images/Banners.svg';
+import LottieAnimation from '../components/UncontrolledLottie';
 
 const BackgroundSection = () => (
 	<StaticQuery
@@ -29,12 +30,15 @@ const BackgroundSection = () => (
 				>
 					<div className="background-container">
 						<Header />
-						<div className="content">
-							<img id="Welcome" src={Welcome} />
+						<div className="content-container">
+							<div className="content">
+								<LottieAnimation />
+								<img id="Welcome" src={Welcome} />
 
-							{/* <h1>WELCOME</h1>
+								{/* <h1>WELCOME</h1>
 							<h3>I'm Martin Lindén</h3>
 							<h3>Front-end developer</h3> */}
+							</div>
 						</div>
 						<div className="navigate">
 							<a href="#projects">View Projects</a>
