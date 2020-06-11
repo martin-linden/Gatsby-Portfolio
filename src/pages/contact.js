@@ -11,7 +11,9 @@ const ContactPage = () => (
 
 		<div className="project-border">
 			<div className="project-header-wrapper">
-				<h1 className="page-header">Contact</h1>
+				<h1 className="page-header" id="contact">
+					Contact
+				</h1>
 
 				<hr className="line" />
 				<div id="paper-plane">

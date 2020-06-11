@@ -37,11 +37,15 @@ const BackgroundSection = () => (
 										I’m a creative front-end developer
 										with extensive knowledge and great
 										interest in developing responsive,
-										well-functioning and stylish
+										well-functioning and good looking
 										solutions for the web.
 									</p>
 								</div>
 							</div>
+						</div>
+						<div className="navigate">
+							<a href="#contact">Contact</a>
+							<i className="arrow" />
 						</div>
 					</div>
 				</BackgroundImage>

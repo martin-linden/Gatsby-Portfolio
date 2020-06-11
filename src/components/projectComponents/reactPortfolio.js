@@ -14,9 +14,12 @@ const ReactPortfolio = () => (
 					entirely out of CSS Grids.
 				</p>
 				<div className="link-container">
-					{/* <Link className="link2" to="/Read more/">
-					About me
-				</Link> */}
+					<a
+						className="link2"
+						href="https://trusting-wright-cfd560.netlify.app/"
+					>
+						Visit website
+					</a>
 					<a
 						href="https://github.com/martin-linden/React-Portfolio"
 						className="link2"
