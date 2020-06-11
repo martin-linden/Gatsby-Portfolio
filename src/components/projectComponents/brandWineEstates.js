@@ -30,7 +30,11 @@ const BrandWineEstates = () => (
 			</div>
 		</div>
 		<div className="project-image-wrapper">
-			<img className="project-image" src={Wine} />
+			<img
+				className="project-image"
+				alt="Brand Wine Estates Logo"
+				src={Wine}
+			/>
 		</div>
 	</div>
 );

@@ -33,7 +33,6 @@ const BackgroundSection = () => (
 						<div className="content-container">
 							<div className="content">
 								<LottieAnimation />
-								<img id="Welcome" src={Welcome} />
 
 								{/* <h1>WELCOME</h1>
 							<h3>I'm Martin Lindén</h3>

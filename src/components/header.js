@@ -6,7 +6,7 @@ import Logo from '../images/logo.svg';
 const Header = () => (
 	<div className="header">
 		<Link to="/">
-			<img id="logo" src={Logo} />
+			<img id="logo" alt="Martin Linden Logo" src={Logo} />
 		</Link>
 		<div id="link-wrapper">
 			<Link className="link" to="/contact/">

@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../sass/main.scss';
-import { Link } from 'gatsby';
 import ReactLogo from '../../images/react-logo.svg';
 
 const ReactPortfolio = () => (
@@ -30,7 +29,11 @@ const ReactPortfolio = () => (
 			</div>
 		</div>
 		<div className="project-image-wrapper">
-			<img className="project-image" src={ReactLogo} />
+			<img
+				className="project-image"
+				alt="React logo"
+				src={ReactLogo}
+			/>
 		</div>
 	</div>
 );

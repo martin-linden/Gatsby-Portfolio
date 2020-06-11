@@ -27,7 +27,11 @@ const Quire = () => (
 			</div>
 		</div>
 		<div className="project-image-wrapper">
-			<img className="project-image" src={NoteBook} />
+			<img
+				className="project-image"
+				alt="Quire Logo"
+				src={NoteBook}
+			/>
 		</div>
 	</div>
 );
