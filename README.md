@@ -2,7 +2,7 @@
 
 A project portfolio built with React Gatsby
 
-This project is available online at [martinlinden.com](https://martinlinden.com/).
+This project is available online at [martinlinden.com](https://martinlinden.com/)
 
 ## About the portfolio
 I wanted to build a new portfolio with the React framework Gatsby and ended with a result I could be really happy with. First designed in Adobe xd and then styled using Sass.
