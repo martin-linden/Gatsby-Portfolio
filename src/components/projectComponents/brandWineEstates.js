@@ -20,12 +20,7 @@ const BrandWineEstates = () => (
 					{/* <Link className="link2" to="/Read more/">
 					About me
 				</Link> */}
-					<a
-						href="https://github.com/martin-linden/Brand-Wine-Estates"
-						className="link2"
-					>
-						Github
-					</a>
+					<p>Work In Progress</p>
 				</div>
 			</div>
 		</div>
