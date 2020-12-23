@@ -1,3 +1,7 @@
+require("dotenv").config({
+	path: `.env.${process.env.NODE_ENV}`,
+  })
+
 module.exports = {
 	plugins: [
 		{
@@ -26,7 +30,16 @@ module.exports = {
 				path: `${__dirname}/src/images`
 			}
 		},
-
+		{
+			resolve: `gatsby-source-prismic`,
+			options: {
+			  repositoryName: `martinlindenportfolio`,
+			  accessToken: `${process.env.API_KEY}`,
+			  schemas: {
+				project_list: require('./src/schemas/project_list.json'),
+			  },
+			},
+		  },
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
 		{

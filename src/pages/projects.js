@@ -1,21 +1,30 @@
 import React from 'react';
 import '../sass/main.scss';
-import BrandWineEstates from '../components/projectComponents/brandWineEstates';
-import BirdsEyeView from '../components/projectComponents/birdsEyeView';
-import ReactPortfolio from '../components/projectComponents/reactPortfolio';
-import Quire from '../components/projectComponents/quire';
+import Project from '../components/project';
 
-const ProjectPage = () => (
-	<div className="project-border">
-		<div className="project-header-wrapper" id="projects">
-			<h1 className="page-header">Projects</h1>
-			<hr className="line" />
-		</div>
-		<BrandWineEstates />
-		<BirdsEyeView />
-		<ReactPortfolio />
-		<Quire />
-	</div>
-);
+const ProjectPage = ({ data }) => {
+  return (
+    <div className="project-border">
+      <div className="project-header-wrapper" id="projects">
+        <h1 className="page-header">Projects</h1>
+        <hr className="line" />
+      </div>
+      {data.map((data, index) => {
+        return (
+          <Project
+            key={index}
+            title={data.project_title}
+            text={data.project_text}
+            github={data.github_link.url}
+            website={data.website_link.url}
+            image={data.project_image.fixed.src}
+            alt={data.project_image.alt}
+            even={index}
+          />
+        );
+      })}
+    </div>
+  );
+};
 
 export default ProjectPage;
