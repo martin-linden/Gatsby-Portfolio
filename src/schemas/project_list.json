@@ -1,0 +1,61 @@
+{
+    "Main" : {
+      "body" : {
+        "type" : "Slices",
+        "fieldset" : "Slice zone",
+        "config" : {
+          "labels" : {
+            "project_list" : [ ]
+          },
+          "choices" : {
+            "project_list" : {
+              "type" : "Slice",
+              "fieldset" : "Project List",
+              "description" : "A list of web dev projects",
+              "icon" : "list",
+              "display" : "list",
+              "non-repeat" : { },
+              "repeat" : {
+                "project_image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "constraint" : { },
+                    "thumbnails" : [ ],
+                    "label" : "project image"
+                  }
+                },
+                "project_title" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "project title",
+                    "placeholder" : "project title"
+                  }
+                },
+                "project_text" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "project text",
+                    "placeholder" : "project text"
+                  }
+                },
+                "github_link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "github link",
+                    "placeholder" : "github link"
+                  }
+                },
+                "website_link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "website link",
+                    "placeholder" : "website link"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
