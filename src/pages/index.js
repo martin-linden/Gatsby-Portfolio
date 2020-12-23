@@ -3,7 +3,6 @@ import Background from '../components/background';
 import ProjectPage from '../components/projects';
 import Footer from '../components/footer';
 import '../sass/main.scss';
-import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
