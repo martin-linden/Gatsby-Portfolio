@@ -1,6 +1,6 @@
 import React from 'react';
 import '../sass/main.scss';
-import Project from '../components/project';
+import Project from './project';
 
 const ProjectPage = ({ data }) => {
   return (

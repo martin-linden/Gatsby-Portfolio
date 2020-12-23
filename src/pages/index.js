@@ -1,6 +1,6 @@
 import React from 'react';
 import Background from '../components/background';
-import ProjectPage from '../pages/projects';
+import ProjectPage from '../components/projects';
 import Footer from '../components/footer';
 import '../sass/main.scss';
 import Aos from 'aos';

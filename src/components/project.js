@@ -1,7 +1,5 @@
 import React from 'react';
 import '../sass/main.scss';
-import { Link } from 'gatsby';
-import Bird from '../images/bird.svg';
 
 const Project = ({ title, text, github, website, image, alt, even }) => {
   let toggleCss = '';
