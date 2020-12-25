@@ -1,6 +1,6 @@
 import { Link } from 'gatsby';
 import React from 'react';
-import Logo from '../images/new-logo.svg';
+import Logo from '../../images/new-logo.svg';
 
 const Header = () => (
   <div className="header">

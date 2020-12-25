@@ -9,7 +9,7 @@
 @import 'pages/index';
 @import 'components/projects';
 @import 'layout/grids';
-@import 'components/footer';
-@import 'components/background';
-@import 'components/header';
-@import 'components/form';
+@import '../components/Footer/style';
+@import '../components/LandingBackground/style';
+@import '../components//Navbar/style';
+@import '../components/Form/style';

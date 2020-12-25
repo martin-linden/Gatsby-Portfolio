@@ -1,8 +1,6 @@
 import React from 'react';
-import Background from '../components/backgroundContact';
-import Footer from '../components/footer';
-import ContactForm from '../components/form';
-
+import Background from '../components/ContactBackground/index';
+import Form from '../components/Form/';
 import PaperPlane from '../lotties/PaperPlane';
 
 const ContactPage = () => (
@@ -39,9 +37,8 @@ const ContactPage = () => (
           </a>
         </p>
       </div>
-      <ContactForm />
+      <Form />
     </div>
-    <Footer />
   </React.Fragment>
 );
 

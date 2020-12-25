@@ -44,7 +44,7 @@ textarea {
 
 .form button {
   border: none;
-  background-color: $color-dark-gray;
+  background-color: $input-focus;
   color: white;
   font-size: 12px;
   width: 80px;
@@ -56,14 +56,14 @@ textarea {
 
 input:focus {
   outline: none !important;
-  border: 1px solid $color-dark-gray;
-  box-shadow: 0 0 5px $color-dark-gray;
+  border: 1px solid $input-focus;
+  box-shadow: 0 0 5px $input-focus;
 }
 
 textarea:focus {
   outline: none !important;
-  border: 1px solid $color-dark-gray;
-  box-shadow: 0 0 5px $color-dark-gray;
+  border: 1px solid $input-focus;
+  box-shadow: 0 0 5px $input-focus;
 }
 
 .project-header-wrapper p {
