@@ -1,6 +1,6 @@
 import React from 'react';
 import Background from '../components/LandingBackground/index';
-import ProjectPage from '../components/projects';
+import ProjectPage from '../components/ProjectList/index';
 import '../sass/main.scss';
 import 'aos/dist/aos.css';
 import Helmet from 'react-helmet';
