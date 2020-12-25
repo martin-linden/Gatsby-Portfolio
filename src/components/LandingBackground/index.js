@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
 import BackgroundImage from 'gatsby-background-image';
+import Layout from '../layout';
 
 const BackgroundSection = () => (
   <StaticQuery
@@ -19,14 +20,16 @@ const BackgroundSection = () => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid;
       return (
-        <BackgroundImage
-          className="bg-container"
-          Tag="section"
-          fluid={imageData}
-          backgroundColor={`#040e18`}
-          fadeIn
-          style={{ height: '100vh', backgroundSize: 'cover', backgroundPosition: 'center' }}
-        ></BackgroundImage>
+        <Layout>
+          <BackgroundImage
+            className="bg-container"
+            Tag="section"
+            fluid={imageData}
+            backgroundColor={`#040e18`}
+            fadeIn
+            style={{ height: '100vh', backgroundSize: 'cover', backgroundPosition: 'center' }}
+          ></BackgroundImage>
+        </Layout>
       );
     }}
   />
