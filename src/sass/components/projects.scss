@@ -20,10 +20,13 @@
 }
 
 .project-header {
-  font-size: $project-header;
-  /* margin-bottom: 10px; */
+  font-size: 200%;
   text-align: left;
-  color: $project-header-primary;
+  color: $header;
+}
+
+.project-header.dark {
+  color: orange;
 }
 
 .project-content-wrapper {

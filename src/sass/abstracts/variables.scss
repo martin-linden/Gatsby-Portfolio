@@ -1,37 +1,14 @@
-////Color variables////
+//Theme colors - light
+$color-purple: #b09ccb;
+$color-dark-gray: #454545;
+$color-white: #fff;
 
-//Primary - colors
-$color-primary: #b09ccb;
-$primary-white: #fff;
+//Text
+$header: $color-dark-gray;
+
+//background
+$body: $color-white;
 
 //Link - colors
 $links-primary: #fff;
 $links-secondary: black;
-
-//Text - colors
-$project-header-primary: #454545;
-
-/////////////////////////////////////
-
-//links
-
-////Font size variables////
-
-//Landing - Font size
-$Header-size: 400%;
-
-//Projects Page - Font size
-$project-header: 200%;
-$project-text-size: 100%;
-
-//////////////////////////////////////
-
-////text width variables////
-
-//Projects Page - text width
-/* $project-text-width: 400px; */
-
-//////////////////////////////////////
-
-////Image variables////
-$logo-size: 100px;
