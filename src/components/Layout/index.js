@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-
-import Header from './Navbar/index.js';
-import './layout.scss';
+import Header from '../Navbar/index';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,14 +23,7 @@ const Layout = ({ children }) => {
           maxWidth: 960,
           padding: `0 1.0875rem 1.45rem`,
         }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+      ></div>
     </>
   );
 };
