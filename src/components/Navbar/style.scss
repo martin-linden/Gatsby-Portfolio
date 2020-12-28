@@ -2,14 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
+  height: 15vh;
   margin-right: 5%;
   margin-left: 3%;
-  font-family: 'PT Serif', serif;
   font-weight: 400;
 }
 
+#link {
+  color: #483667;
+}
+
 #logo {
-  width: 45px;
+  width: 55px;
   margin: 0;
 }

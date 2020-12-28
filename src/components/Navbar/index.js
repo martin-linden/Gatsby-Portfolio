@@ -8,7 +8,7 @@ const Header = () => (
       <img id="logo" alt="Martin Linden Logo" src={Logo} />
     </Link>
     <div id="link-wrapper">
-      <Link className="link" to="/contact/">
+      <Link className="link" to="/contact/" id="link">
         About me / Contact
       </Link>
     </div>
