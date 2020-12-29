@@ -10,26 +10,19 @@
     list-style: none;
   }
 
-  button {
-    display: block;
-    min-height: 12px;
-    min-width: 12px;
-    border: none;
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b7b7b7;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-    background-color: #dbdbdb;
   }
-}
 
-.active-link {
-  .button-container {
-    display: block;
-    border: 1px solid $color-purple;
-    min-height: 12px;
-    min-width: 12px;
-    border-radius: 50%;
-    padding: 7px;
-  }
-  button {
-    background-color: $color-purple;
+  .active-link {
+    .icon-wrapper {
+      background-color: $color-purple;
+    }
   }
 }
