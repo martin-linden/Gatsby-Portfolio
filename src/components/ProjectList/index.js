@@ -6,7 +6,6 @@ const ProjectPage = ({ data }) => {
     <div className="project-border">
       <div className="project-header-wrapper" id="projects">
         <h1 className="page-header">Projects</h1>
-        <hr className="line" />
       </div>
       {data.map((data, index) => {
         return (

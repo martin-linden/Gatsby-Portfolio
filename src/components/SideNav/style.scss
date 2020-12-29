@@ -1,10 +1,35 @@
-ul {
+.sidenav-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  margin-right: 180px;
+
+  li {
+    margin: 40px 0 40px 0;
+    list-style: none;
+  }
+
+  button {
+    display: block;
+    min-height: 12px;
+    min-width: 12px;
+    border: none;
+    border-radius: 50%;
+    background-color: #dbdbdb;
+  }
 }
 
-li {
-  margin: 40px 0 40px 0;
+.active-link {
+  .button-container {
+    display: block;
+    border: 1px solid $color-purple;
+    min-height: 12px;
+    min-width: 12px;
+    border-radius: 50%;
+    padding: 7px;
+  }
+  button {
+    background-color: $color-purple;
+  }
 }
