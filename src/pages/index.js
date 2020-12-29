@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout/index.js';
+import SideNav from '../components/SideNav/index';
 
 const IndexPage = (props) => {
   const data = props.data.allPrismicProjectList.edges[0].node.data.body[0].items;
@@ -18,7 +19,10 @@ const IndexPage = (props) => {
         <meta property="og:title" content="Martin Linden - Front-End Developer" />
       </Helmet>
       <Layout />
-      <Background />
+      <div className="container">
+        <Background />
+        <SideNav />
+      </div>
       <ProjectPage data={data} />
     </React.Fragment>
   );

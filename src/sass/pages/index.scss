@@ -8,3 +8,9 @@ body {
   align-self: flex-end;
   width: 100vw;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  /* background-color: aliceblue; */
+}
