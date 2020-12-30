@@ -10,10 +10,16 @@ const Header = () => (
     </Link>
     <div className="link-wrapper">
       <Link activeClassName="active-link" to="/">
-        <h5 className="link">Home</h5>
+        <h5 className="link">Home/Projects</h5>
       </Link>
+      {/*  <Link activeClassName="active-link" to="/dev">
+        <h5 className="link">Dev</h5>
+      </Link>
+      <Link activeClassName="active-link" to="/music">
+        <h5 className="link">Music</h5>
+      </Link> */}
       <Link activeClassName="active-link" to="/contact/">
-        <h5 className="link">Contact</h5>
+        <h5 className="link">About/Contact</h5>
       </Link>
     </div>
   </div>

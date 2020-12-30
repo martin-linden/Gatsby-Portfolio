@@ -1,9 +1,12 @@
-.main-container {
+.contact-bg-container {
   height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 
   h5 {
     margin: 0 0 10px 0;
@@ -22,14 +25,14 @@
     -webkit-background-clip: text;
 
     h1 {
-      font-size: 1800%;
+      font-size: 1000%;
       margin: 0;
     }
 
     h2 {
-      font-size: 300%;
+      font-size: 200%;
       text-align: start;
-      margin-left: 20px;
+      /*  margin-left: 20px; */
     }
   }
 }

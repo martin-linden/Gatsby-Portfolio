@@ -1,44 +1,14 @@
 import React from 'react';
 import Background from '../components/ContactBackground/index';
 import Form from '../components/Form/';
-import PaperPlane from '../lotties/PaperPlane';
+
+import Layout from '../components/Layout/index';
 
 const ContactPage = () => (
   <React.Fragment>
+    <Layout />
     <Background />
-
-    <div className="project-border">
-      <div className="project-header-wrapper">
-        <h1 className="page-header" id="contact">
-          Contact
-        </h1>
-
-        <hr className="line" />
-        <div id="paper-plane">
-          <PaperPlane />
-        </div>
-
-        <div>
-          <a href="https://github.com/martin-linden" className="contact-links">
-            Github
-          </a>
-          <a
-            href="https://www.linkedin.com/in/martinlindensthlm/?locale=sv_SE"
-            className="contact-links"
-          >
-            LinkedIn
-          </a>
-        </div>
-        <h1>Let’s talk!</h1>
-        <p>
-          Don’t like forms? Send me an email to: <br />{' '}
-          <a href="mailto:martinlinden.sthlm@gmail.com" className="send-email-link">
-            martinlinden.sthlm@gmail.com
-          </a>
-        </p>
-      </div>
-      <Form />
-    </div>
+    <Form />
   </React.Fragment>
 );
 

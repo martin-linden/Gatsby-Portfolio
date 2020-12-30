@@ -1,46 +1,26 @@
 import React from 'react';
-import { graphql, StaticQuery } from 'gatsby';
-import BackgroundImage from 'gatsby-background-image';
-const BackgroundSection = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        desktop: file(relativePath: { eq: "mee.jpg" }) {
-          childImageSharp {
-            fluid(quality: 90, maxWidth: 1920) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-      }
-    `}
-    render={(data) => {
-      // Set ImageData.
-      const imageData = data.desktop.childImageSharp.fluid;
-      return (
-        <BackgroundImage Tag="section" fluid={imageData} backgroundColor={`#040e18`} fadeIn>
-          <div className="background-container">
-            <div className="color-overlay">
-              <div className="container">
-                <div className="contact-content">
-                  <h1>About me</h1>
-                  <p>
-                    I’m a creative front-end developer with extensive knowledge and great interest
-                    in developing responsive, well-functioning and good looking solutions for the
-                    web.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="navigate">
-              <a href="#contact">Contact</a>
-              <i className="arrow" />
-            </div>
-          </div>
-        </BackgroundImage>
-      );
-    }}
-  />
-);
+import Artboard from '../../Assets/images/flat-landscape-dark.svg';
+import Arrow from '../../Assets/images/arrow.svg';
 
-export default BackgroundSection;
+export default function Index() {
+  return (
+    <div className="contact-bg-container">
+      <div
+        className="bg-container"
+        style={{
+          backgroundImage: `url(${Artboard})`,
+        }}
+      >
+        <h1>About Me</h1>
+        <div className="text">
+          <h2>
+            I’m a creative front-end developer with extensive knowledge and great interest in
+            developing responsive, well-functioning and good looking solutions for the web.
+          </h2>
+        </div>
+      </div>
+      <h5>Contact</h5>
+      <img src={Arrow} alt="arrow down" />
+    </div>
+  );
+}
