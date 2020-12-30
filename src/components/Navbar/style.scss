@@ -25,5 +25,7 @@
 .active-link {
   .link {
     color: $color-purple;
+    text-decoration: underline;
+    text-decoration-color: gray;
   }
 }

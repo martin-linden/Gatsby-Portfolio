@@ -11,13 +11,13 @@ export default function Index() {
           backgroundImage: `url(${Artboard})`,
         }}
       >
-        <h1>Hello</h1>
+        <h1>Welcome</h1>
         <div className="text">
-          <h2>I'm Martin</h2>
-          <h2>Front-End Developer</h2>
+          <h2>I'm Martin Lindén</h2>
+          <h3>Front-End Developer</h3>
         </div>
       </div>
-      <h5>Dev Projects</h5>
+      <a href="#section2">Dev Projects</a>
       <img src={Arrow} alt="arrow down" />
     </div>
   );

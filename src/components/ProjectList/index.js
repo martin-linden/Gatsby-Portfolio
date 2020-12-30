@@ -5,7 +5,9 @@ const ProjectPage = ({ data }) => {
   return (
     <div className="project-border">
       <div className="project-header-wrapper" id="projects">
-        <h1 className="page-header">My Work</h1>
+        <h1 className="page-header" id="section2">
+          My Work
+        </h1>
       </div>
       {data.map((data, index) => {
         return (

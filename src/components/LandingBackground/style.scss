@@ -4,8 +4,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 
-  h5 {
+  a {
     margin: 0 0 10px 0;
     color: gray;
   }
@@ -22,14 +25,20 @@
     -webkit-background-clip: text;
 
     h1 {
-      font-size: 1800%;
+      font-size: 1000%;
       margin: 0;
+      text-align: center;
     }
 
     h2 {
       font-size: 300%;
       text-align: start;
-      margin-left: 20px;
+      /*  margin-left: 20px; */
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
     }
   }
 }

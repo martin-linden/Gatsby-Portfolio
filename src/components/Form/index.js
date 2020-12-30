@@ -3,7 +3,7 @@ import PaperPlane from '../../lotties/PaperPlane';
 
 const ContactForm = () => (
   <>
-    <div className="project-header-wrapper">
+    <div className="project-header-wrapper" id="section2">
       <div id="paper-plane">
         <PaperPlane />
       </div>

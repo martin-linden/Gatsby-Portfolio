@@ -19,7 +19,7 @@ export default function Index() {
           </h2>
         </div>
       </div>
-      <h5>Contact</h5>
+      <a href="#section2">Contact</a>
       <img src={Arrow} alt="arrow down" />
     </div>
   );

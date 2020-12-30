@@ -8,7 +8,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  h5 {
+  a {
     margin: 0 0 10px 0;
     color: gray;
   }
@@ -27,11 +27,13 @@
     h1 {
       font-size: 1000%;
       margin: 0;
+      text-align: center;
     }
 
     h2 {
       font-size: 200%;
       text-align: start;
+      text-align: center;
       /*  margin-left: 20px; */
     }
   }
