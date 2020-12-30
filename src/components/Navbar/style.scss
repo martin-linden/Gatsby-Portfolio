@@ -6,13 +6,24 @@
   margin-right: 5%;
   margin-left: 3%;
   font-weight: 400;
+
+  .link-wrapper {
+    display: flex;
+  }
+
+  .link {
+    margin-right: 1rem;
+    color: grey;
+  }
+
+  #logo {
+    width: 55px;
+    margin: 0;
+  }
 }
 
-#link {
-  color: #483667;
-}
-
-#logo {
-  width: 55px;
-  margin: 0;
+.active-link {
+  .link {
+    color: $color-purple;
+  }
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
 import BackgroundImage from 'gatsby-background-image';
 import Artboard from '../../Assets/images/flat-landscape-dark.svg';
+import Arrow from '../../Assets/images/arrow.svg';
 
 const BackgroundSection = () => (
   <StaticQuery
@@ -33,6 +34,8 @@ const BackgroundSection = () => (
               <h2>Front-End Developer</h2>
             </div>
           </div>
+          <h5>Projects</h5>
+          <img src={Arrow} alt="arrow down" />
         </div>
       );
     }}
