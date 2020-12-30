@@ -5,7 +5,7 @@ import NeoButtons from '../NeoButtons/index';
 
 const Header = () => (
   <div className="header">
-    <Link to="/Home/">
+    <Link to="/">
       <img id="logo" alt="Martin Linden Logo" src={Logo} />
     </Link>
     <div className="link-wrapper">
