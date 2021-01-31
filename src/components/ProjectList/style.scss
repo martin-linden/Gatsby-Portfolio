@@ -5,7 +5,10 @@
 }
 
 .project-border {
-  padding: 80px 30px 30px 30px;
+  /*   padding: 80px 30px 30px 30px; */
+  @media only screen and (max-width: 845px) {
+    padding: 0;
+  }
 }
 
 .project-wrapper {
@@ -16,13 +19,6 @@
 .project-wrapper-reverse {
   @include project-flexbox(row-reverse);
   flex-wrap: wrap-reverse;
-}
-
-.project-header-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .project-header {

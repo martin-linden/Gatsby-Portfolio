@@ -18,9 +18,9 @@ const IndexPage = (props) => {
         <meta property="og:title" content="Martin Linden - Front-End Developer" />
       </Helmet>
       <Layout />
-      <div className="container">
-        <Background />
-      </div>
+
+      <Background />
+
       <ProjectPage data={data} />
     </React.Fragment>
   );

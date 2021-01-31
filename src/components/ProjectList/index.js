@@ -3,12 +3,7 @@ import Project from '../Project/index';
 
 const ProjectPage = ({ data }) => {
   return (
-    <div className="project-border">
-      <div className="project-header-wrapper" id="projects">
-        <h1 className="page-header" id="section2">
-          My Work
-        </h1>
-      </div>
+    <div className="project-border" id="section2">
       {data.map((data, index) => {
         return (
           <Project
