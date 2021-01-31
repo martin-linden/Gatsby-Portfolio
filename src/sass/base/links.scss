@@ -1,24 +1,15 @@
-@import "abstracts/variables";
-
-/* #link-wrapper {
-} */
-
-.link {
-	margin-right: 15px;
-	text-decoration: none;
-	color: $links-primary;
-}
+@import 'abstracts/variables';
 
 .link2 {
-	margin-right: 15px;
-	color: $links-secondary;
+  margin-right: 15px;
+  color: $links-secondary;
 }
 
 .contact-links {
-	padding: 5px;
-	color: #b09ccb;
+  padding: 5px;
+  color: #b09ccb;
 }
 
 .send-email-link {
-	color: #b09ccb;
+  color: #b09ccb;
 }

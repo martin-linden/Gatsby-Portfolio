@@ -1,0 +1,41 @@
+.nav-container {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 95vw;
+    margin-right: 5%;
+    margin-left: 3%;
+    font-weight: 400;
+  }
+
+  .link-wrapper {
+    display: flex;
+  }
+
+  .link {
+    margin-right: 1rem;
+    color: grey;
+  }
+
+  #logo {
+    width: 55px;
+    margin: 0;
+    @media only screen and (max-width: 394px) {
+      display: none;
+    }
+  }
+}
+
+.active-link {
+  .link {
+    color: $color-purple;
+    text-decoration: underline;
+    text-decoration-color: gray;
+  }
+}

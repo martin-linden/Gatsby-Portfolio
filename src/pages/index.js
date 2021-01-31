@@ -1,12 +1,11 @@
 import React from 'react';
-import Background from '../components/background';
-import ProjectPage from '../components/projects';
-import Footer from '../components/footer';
+import Background from '../components/LandingBackground/index';
+import ProjectPage from '../components/ProjectList/index';
 import '../sass/main.scss';
-import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
+import Layout from '../components/Layout/index.js';
 
 const IndexPage = (props) => {
   const data = props.data.allPrismicProjectList.edges[0].node.data.body[0].items;
@@ -18,13 +17,11 @@ const IndexPage = (props) => {
         <meta name="description" content="Front-end developer - HTML, CSS, React, JavaScript" />
         <meta property="og:title" content="Martin Linden - Front-End Developer" />
       </Helmet>
+      <Layout />
 
-      <div>
-        <Background />
-        <ProjectPage data={data} />
+      <Background />
 
-        <Footer />
-      </div>
+      <ProjectPage data={data} />
     </React.Fragment>
   );
 };

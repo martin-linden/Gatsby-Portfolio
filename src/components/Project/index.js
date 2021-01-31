@@ -1,5 +1,4 @@
 import React from 'react';
-import '../sass/main.scss';
 
 const Project = ({ title, text, github, website, image, alt, even }) => {
   let toggleCss = '';

@@ -27,13 +27,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/Assets/images`,
       },
     },
     {
       resolve: `gatsby-source-prismic`,
       options: {
         repositoryName: `martinlindenportfolio`,
+        accessToken: `${process.env.API_KEY}`,
         schemas: {
           project_list: require('./src/schemas/project_list.json'),
         },
@@ -50,7 +51,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/new-logo.svg`, // This path is relative to the root of the site. */
+        icon: `src/Assets/images/new-logo.svg`, // This path is relative to the root of the site. */
       },
     },
   ],

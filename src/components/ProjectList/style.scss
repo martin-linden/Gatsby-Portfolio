@@ -1,5 +1,14 @@
+.page-header {
+  margin-bottom: 10px;
+  color: $header;
+  font-weight: $weight-medium;
+}
+
 .project-border {
-  padding: 80px 30px 30px 30px;
+  /*   padding: 80px 30px 30px 30px; */
+  @media only screen and (max-width: 845px) {
+    padding: 0;
+  }
 }
 
 .project-wrapper {
@@ -12,18 +21,15 @@
   flex-wrap: wrap-reverse;
 }
 
-.project-header-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.project-header {
+  font-size: 200%;
+  text-align: left;
+  color: $header;
+  font-weight: $weight-medium;
 }
 
-.project-header {
-  font-size: $project-header;
-  /* margin-bottom: 10px; */
-  text-align: left;
-  color: $project-header-primary;
+.project-header.dark {
+  color: green;
 }
 
 .project-content-wrapper {

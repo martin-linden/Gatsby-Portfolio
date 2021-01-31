@@ -1,0 +1,32 @@
+.sidenav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 180px;
+
+  li {
+    margin: 40px 0 40px 0;
+    list-style: none;
+  }
+
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b7b7b7;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+  .active-link {
+    .icon-wrapper {
+      background-color: $color-purple;
+    }
+
+    .icon {
+      padding: 1px;
+    }
+  }
+}

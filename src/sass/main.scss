@@ -1,13 +1,19 @@
-@import "abstracts/variables";
-@import "abstracts/mixins";
-@import "base/links";
-@import "base/text";
-@import "base/images";
-@import "base/buttons";
-@import "pages/index";
-@import "pages/projects";
-@import "layout/grids";
-@import "components/footer";
-@import "components/background";
-@import "components/header";
-@import "components/form";
+//Import all Scss files here to use it everywhere in app
+
+@import '../components/Layout/style';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'base/links';
+@import 'base/text';
+@import 'base/images';
+@import 'base/buttons';
+@import './pages/index';
+@import '../components//ProjectList/style';
+@import 'layout/grids';
+@import '../components/Footer/style';
+@import '../components/LandingBackground/style';
+@import '../components//Navbar/style';
+@import '../components/Form/style';
+@import '../components/SideNav/style';
+@import '../components/NeoButtons/style';
+@import '../components//ContactBackground/style';
