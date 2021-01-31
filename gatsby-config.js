@@ -34,6 +34,7 @@ module.exports = {
       resolve: `gatsby-source-prismic`,
       options: {
         repositoryName: `martinlindenportfolio`,
+        accessToken: `${process.env.API_KEY}`,
         schemas: {
           project_list: require('./src/schemas/project_list.json'),
         },
